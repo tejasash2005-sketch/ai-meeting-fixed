@@ -1,0 +1,12 @@
+{
+  "name": "ai-meeting-intelligence-v2",
+  "version": "2.0.0",
+  "description": "AI Meeting Intelligence Platform with Live Meetings",
+  "scripts": {
+    "start": "bash start.sh",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  }
+}
